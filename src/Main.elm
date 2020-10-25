@@ -1,6 +1,7 @@
 module Main exposing (negative, square)
 
 
+square : number -> number
 square x =
     x * x
 
