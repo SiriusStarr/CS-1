@@ -1,7 +1,11 @@
-module Main exposing (square, negative)
+module Main exposing (negative, square)
 
-square x = x * x
+
+square : number -> number
+square x =
+    x * x
+
 
 negative : number -> Bool
-negative n = if n <= 0 then True
-    else False
+negative n =
+    n < 0
